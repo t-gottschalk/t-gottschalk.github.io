@@ -1,0 +1,343 @@
+/* ------------------------------------------------ */
+/* NEW GITHUB IO STATIC PAGE CSS */
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------------------ */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/dark.png);
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+	background-size: cover;
+	background-position: center;
+	font-weight: 300;
+	font-size: 18px;
+	color: white;
+	text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------ */
+
+.main-header {
+	width: 100%;
+	height: 80px;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 60px;
+	padding-bottom: 25px;
+	text-align: right;
+	padding-right: 20px
+
+}
+
+.name {
+	margin-right: 594px;
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	padding-right: 0px;
+	font-size: 18px;
+}
+
+.name:link,
+.name:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.name:hover,
+.name:active {
+	border-bottom: 2px solid #e67e22;
+}
+
+.about {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.about:link,
+.about:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.about:hover,
+.about:active {
+	border-bottom: 2px solid #e67e22;
+}
+
+.portfolio {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.portfolio:link,
+.portfolio:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.portfolio:hover,
+.portfolio:active {
+	border-bottom: 2px solid #e67e22;
+}
+
+.contact {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.contact:link,
+.contact:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.contact:hover,
+.contact:active {
+	border-bottom: 2px solid #e67e22;
+}
+
+.bar-one {
+	border-right: 2px solid #e67e22;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.bar-two {
+	border-right: 2px solid #e67e22;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.bar-three {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	padding-right: 94px;
+}
+
+/*.main-nav td a*/
+
+/* ------------------------------------------------ */
+/* MAIN */
+/* ------------------------------------------------ */
+
+.main-body {
+	position:absolute;
+	width: 62%;
+	float: left;
+	padding-left: 200px;
+	color: #fff;
+	text-align: left;
+}
+
+.main-body h1 {
+	text-align: justify;
+	font-size: 34px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #e67e22;
+	padding-top: 40px;
+}
+
+.main-body p {
+	text-align: justify;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	line-height: 2.0;
+}
+
+/* ------------------------------------------------ */
+/* ASIDE */
+/* ------------------------------------------------ */
+
+/*.main-aside {
+	width: 35%;
+	float: right;
+	text-align: left;
+	margin-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid orange;
+	font-size: 24px;
+	font-weight: 300;
+
+	position: absolute;
+	width: auto;
+	top: 9%;
+	left: 64%;
+	transform: translate(46%, -10%);
+	margin-top: 50px;
+	border-bottom: 2px solid #e67e22;
+	padding-bottom: 10px;
+}*/
+
+/* ------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------ */
+
+.main-footer {
+	/*background-size: cover;
+	background-position: center;*/
+	position: fixed;
+	left: 0;
+    bottom: 0;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	color: #555;
+	border-top: 8px solid #e67e22;
+}
+
+.main-footer p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+/* ------------------------------------------------ */
+/* CONTACT PAGE */
+/* ------------------------------------------------ */
+
+.main-form form {
+	position: absolute;
+	width: 690px;
+	margin-left: 200px;
+	color: #fff;
+	text-align: left;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+.main-form form h1 {
+	text-align: justify;
+	font-size: 34px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 2px solid #e67e22;
+}
+
+.contact-row {
+	font-size: 20px;
+	padding-top: 10px;
+
+}
+
+.contact-row input {
+	line-height: 30px
+}
+
+button {
+	text-decoration: none;
+	background: none;
+	color: inherit;
+	padding: 8px 24px;
+	cursor: pointer;
+	outline: inherit;
+	font-size: 18px;
+	font-weight: 300;
+	border: 2px solid #e67e22;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+/*.contact-submit {
+	padding: 8px 24px;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	border: 2px solid #000;
+	color: #fff;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}*/
+
+button:link,
+button:visited {
+	/*border: 2px solid #e67e22;*/
+	color: #fff;
+}
+
+button:hover,
+button:active {
+	/*border: 2px solid #e67e22;*/
+	color: #e67e22;
+}
+
+#thankyou_message {
+	margin-top: 200px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+/*#thankyou_message h2 em{
+	font-size: 32px
+	font-weight: 300;
+}*/
+
+/*.contact-submit:link,
+.contact-submit:visited {
+	border: 2px solid #e67e22;
+	color: #fff;
+}
+
+.contact-submit:hover,
+.contact-submit:active {
+	border: 2px solid #cf6d17;
+	color: #e67e22;
+}*/
+
+/*.contact-row input {
+	line-height: 30px
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
