@@ -1,2 +1,2 @@
-# t-gottschalk.github.io
-Personal GitHub Webpage for Tony Gottschalk
+# Basic-Portfolio
+Week 1 Assignment
