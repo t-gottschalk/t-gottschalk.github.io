@@ -1,0 +1,321 @@
+/* ------------------------------------------------ */
+/* GITHUB IO STATIC PAGE CSS AND BOOTSTRAP */
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------------------ */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/dark.png);
+	background-size: cover;
+	background-position: center;
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+	text-rendering: optimizeLegibility;
+}
+
+/*.pink {
+	text-align: center;
+	border: 1px solid pink;
+}*/
+
+/* ------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------ */
+
+.main-nav {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.name {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	text-align: left;
+	letter-spacing: 1px;
+	/*border: 1px solid #e67e22;*/
+}
+
+.about {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
+	text-align: right;
+	/*border: 1px solid #e67e22;*/
+}
+
+.about {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.about:link,
+.about:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.about span:hover,
+.about span:active {
+	/*color: #e67e22;
+  	box-shadow: inset 0px -6px 0px #000;*/
+	border-bottom: 2px solid #e67e22;
+}
+
+.portfolio {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+	border-left: 2px solid #e67e22;
+	border-right: 2px solid #e67e22;
+}
+
+.portfolio {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.portfolio:link,
+.portfolio:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.portfolio span:hover,
+.portfolio span:active {
+	/*color: #e67e22;
+	box-shadow: inset 0px -6px 0px #000;*/
+	border-bottom: 2px solid #e67e22;
+}
+
+.contact {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.contact:link,
+.contact:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.contact span:hover,
+.contact span:active {
+	/*color: #e67e22;
+	box-shadow: inset 0px -6px 0px #000;*/
+	border-bottom: 2px solid #e67e22;
+}
+
+/* ------------------------------------------------ */
+/* BODY */
+/* ------------------------------------------------ */
+
+h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 34px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.border1 {
+	width: 710px;
+    margin-left: 40px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	border-bottom: 2px solid #e67e22;
+}
+
+.border2 {
+	width: 556px;
+    margin-left: 40px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	border-bottom: 2px solid #e67e22;
+}
+
+p {
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 40px;
+	text-align: left;
+	font-weight: 300;
+	line-height: 2.0;
+	text-align: justify;
+	letter-spacing: 1px;
+	/*word-spacing: 2px;*/
+}
+
+/* ------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------ */
+
+.main-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	margin-top: 40px;
+
+
+
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: white;
+	color: #555;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	border-top: 8px solid #e67e22;
+}
+
+/* ------------------------------------------------ */
+/* CONTACT PAGE */
+/* ------------------------------------------------ */
+
+.main-form form {
+	color: #fff;
+	text-align: left;
+	line-height: 1.8;
+	font-weight: 300;
+	/*border: 1px solid orange;*/
+}
+
+.input {
+	color: #777777;
+}
+
+.main-form form h1 {
+	text-align: justify;
+	font-size: 34px;
+	font-weight: 400;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.contact-row {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 40px;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+}
+
+.contact-row input {
+	line-height: 30px
+}
+
+/*Note styled the IDs in HTML*/
+/*#name {
+	width: 580px;
+	font-size: 18px;
+}
+
+#email {
+	width: 580px;
+	font-size: 18px;
+}
+
+#message {
+	width: 580px;
+	font-size: 18px;
+}*/
+
+button {
+	text-decoration: none;
+	background: none;
+	color: inherit;
+	padding: 4px 20px;
+	cursor: pointer;
+	outline: inherit;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	border: 2px solid #e67e22;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.contact-submit {
+	color: #FFFFFF;
+	text-decoration: none;
+	color: #fff;
+}
+
+.contact-submit:link,
+.contact-submit:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact-submit:hover,
+.contact-submit:active {
+	text-decoration: none;
+	color: #e67e22;
+}
+
+.send1 {
+	
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+#thankyou_message {
+	margin-top: 200px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

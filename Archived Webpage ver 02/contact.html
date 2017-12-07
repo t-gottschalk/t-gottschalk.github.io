@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Contact Me</title>
+</head>
+<body>
+	<div class="container">
+		<header class="row main-nav">
+			<div class="col-lg-8 name">Tony Gottschalk</div>
+			<div class="col-lg-4">
+				<div class="row">
+					<div><a class="col-sm-4 about" href="https://www.linkedin.com/in/tony-gottschalk-69bb03151/" target="_blank"><span>About</span></a></div>
+
+					<div><a class="col-sm-4 portfolio" href="https://github.com/t-gottschalk" target="_blank"><span>Portfolio</span></a></div>
+
+					<div><a class="col-sm-4 contact" href="contact.html" target="_blank"><span>Contact</span></a></div>
+				</div>
+			</div>
+		</header>
+		<main>	
+			<section class="main-form">
+				<form id="gform" method="POST" enctype="multipart/form-data" 
+				data-email="tony.gottschalk2017@gmail.com"
+				action=https://script.google.com/macros/s/AKfycbyr6lKqzRmuqhmz-eQvuZQT-Kg4jk7LKTcrvzDnpaLqbKjv0iU/exec>
+					<h1>Contact</h1>
+					<div class="border2"></div>
+					<div class="contact-row">
+						<label for="name">Name:</label><br />
+						<input id="name" class="input" name="name" type="name" required placeholder="John Smith" value="" size="68" /><br />
+					</div>
+					
+					<div class="contact-row">
+						<label for="email">Email:</label><br />
+						<input id="email" class="input" name="email" type="email" required placeholder="example@gmail.com" value="" size="68" /><br />
+					</div>
+					
+					<div class="contact-row">
+						<label for="message">Message:</label><br />
+						<textarea id="message" class="input" name="message" required rows="4" cols="68"></textarea><br />
+					</div>
+					<div>
+						<button class="send1">
+						<a class="contact-submit">&nbsp;Send Email</a>
+						</button>
+						<!-- <button>
+							<a class="contact-submit" href="#">&nbsp;Send</a>
+						</button> -->
+
+						<!-- <a class="contact-submit" href="#">Send email</a> -->
+					</div>
+				</form>
+				<div style="display:none;" id="thankyou_message">
+    				<h2><em>Thank you</em> for contacting me!
+     				 I will get back to you soon!</h2>
+ 				</div>
+			</section>
+		</main>
+		<footer class="row">
+			<div class="col-lg-12 main-footer">@Copyright 2017 Tony Gottschalk</div>
+		</footer>
+		<script data-cfasync="false" type="text/javascript"
+		src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+	</div>
+</body>
+</html>
+
+
+
+
