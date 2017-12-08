@@ -165,49 +165,35 @@ body {
 }
 
 .main-body h1 {
-	font-size: 30px;
-	margin-left: 20px;
-	margin-right: 20px;
+	font-size: 36px;
+	margin-left: 40px;
+	margin-right: 40px;
 	color: #4aaaa5;
+	padding-top: 20px;
 	padding-bottom: 16px;
-	/*letter-spacing: 1px*/
+	letter-spacing: 1px;
 	border-bottom: 2px solid #777777;
-	/*border: 1px solid pink;*/
 }
 
-.photo1 {
+.author-image img {
 	float: left;
 	width: 300px;
-  height: 200px;
-  background-size: cover;
-  background-position: center center;
-  margin-top: 18px;
-  margin-left: 20px;
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
+  height: 240px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+  margin-left: 40px;
   /*border: 1px solid pink;*/
 }
 
 .main-body p {
-	border-left: 0px;
-	padding-left: 20px;
-	line-height: 1.7;
-	letter-spacing: 1px;
-	padding-right: 20px;
-	/*border: 1px solid pink;*/
-}
-
-.paragraph1 {
-	margin-bottom: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
 	padding-top: 10px;
-	/*border: 1px solid pink;*/
-}
-
-.paragraph2 {
-	margin-top: 0px;
-	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	line-height: 1.8;
+	letter-spacing: 1px;
 	/*border: 1px solid pink;*/
 }
 
