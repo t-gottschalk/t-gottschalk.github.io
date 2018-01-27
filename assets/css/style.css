@@ -619,11 +619,11 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 38px;
   letter-spacing: .2rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -642,8 +642,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  border-color: #333333;
   outline: 0; }
 
 .button.button-primary,
@@ -962,7 +963,7 @@ img {
 
 .large-window {
   height: 640px;
-  background-image: url(../images/eddie-wedding.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/eddie-wedding.jpg);
   background-position: center 0px;
   background-repeat: repeat-y;
   background-attachment: fixed;
