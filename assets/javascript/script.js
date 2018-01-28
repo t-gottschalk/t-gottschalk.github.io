@@ -1,4 +1,4 @@
-var pContainerHeight = $('.bird-box').height();
+var pContainerHeight = $('.splash-box').height();
 
 $(window).scroll(function(){
 
@@ -22,12 +22,12 @@ $(window).scroll(function(){
 
 
   // Landing Elements
-  if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
+  if(wScroll > $('.landing').offset().top - ($(window).height() / 1.2)) {
 
-    $('.clothes-pics figure').each(function(i){
+    $('.landing figure').each(function(i){
 
       setTimeout(function(){
-        $('.clothes-pics figure').eq(i).addClass('is-showing');
+        $('.landing figure').eq(i).addClass('is-showing');
       }, (700 * (Math.exp(i * 0.14))) - 700);
     });
 
@@ -48,9 +48,9 @@ $(window).scroll(function(){
 
   // Floating Elements
 
-  if(wScroll > $('.blog-posts').offset().top - $(window).height()){
+  if(wScroll > $('.tech-exp').offset().top - $(window).height()){
 
-    var offset = (Math.min(0, wScroll - $('.blog-posts').offset().top +$(window).height() - 350)).toFixed();
+    var offset = (Math.min(0, wScroll - $('.tech-exp').offset().top +$(window).height() - 350)).toFixed();
 
     $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
@@ -58,3 +58,15 @@ $(window).scroll(function(){
 
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+

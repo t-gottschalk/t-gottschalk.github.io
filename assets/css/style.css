@@ -6,6 +6,7 @@
  *    user zoom.
  */
 html {
+  /*font-family: 'Lato', sans-serif;*/
   font-family: "Helvetica Neue", "Arial", sans-serif;
   /*font-family: sans-serif;*/
   /* 1 */
@@ -322,7 +323,7 @@ input[type="search"]::-webkit-search-decoration {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #d3d3d3;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -628,7 +629,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #d3d3d3;
   cursor: pointer;
   box-sizing: border-box; }
 
@@ -685,7 +686,7 @@ select {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
-  border: 1px solid #D1D1D1;
+  border: 1px solid #d3d3d3;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
@@ -768,8 +769,8 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
+  background: #d3d3d3;
+  border: 1px solid #d3d3d3;
   border-radius: 4px; }
 
 pre > code {
@@ -783,7 +784,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 1px solid #d3d3d3; }
 
 th:first-child,
 td:first-child {
@@ -839,7 +840,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 1px solid #d3d3d3; }
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -890,7 +891,7 @@ img {
   height: 120px;
   max-width: 100%; }
 
-.bird-box {
+.splash-box {
   position: relative;
   height: 640px;
   background-image: url(../images/durham-night.jpg);
@@ -930,9 +931,9 @@ img {
   left: 50%;
   margin-left: -480px; }
 
-.clothes-pics {
+.landing {
   margin-bottom: 100px; }
-  .clothes-pics figure {
+  .landing figure {
     margin-bottom: 20px;
     position: relative;
     opacity: 0;
@@ -940,18 +941,18 @@ img {
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     cursor: pointer; }
-    .clothes-pics figure.is-showing {
+    .landing figure.is-showing {
       opacity: 1;
       transform: translateX(0px); }
-    .clothes-pics figure img {
+    .landing figure img {
       display: block;
       transform: scale(1);
       transition: all 0.3s ease-in-out; }
-    .clothes-pics figure:hover figcaption {
+    .landing figure:hover figcaption {
       left: 0%; }
-    .clothes-pics figure:hover img {
+    .landing figure:hover img {
       transform: scale(1.1); }
-  .clothes-pics figcaption {
+  .landing figcaption {
     position: absolute;
     bottom: 10px;
     left: -100%;
@@ -1011,18 +1012,18 @@ img {
         background: white;
         color: black; }
 
-.blog-posts {
+.tech-exp {
   margin-top: 100px; }
-  .blog-posts .post {
-    border: 1px solid #e1e1e1;
+  .tech-exp .post {
+    border: 1px solid #d3d3d3;
     padding: 20px 20px 0;
     background: white;
     position: relative; }
-  .blog-posts .post-1 {
+  .tech-exp .post-1 {
     transform: translate(100px, 20px); }
-  .blog-posts .post-2 {
+  .tech-exp .post-2 {
     z-index: 2; }
-  .blog-posts .post-3 {
+  .tech-exp .post-3 {
     transform: translate(-100px, 20px); }
 
 footer {
@@ -1050,6 +1051,16 @@ footer {
   letter-spacing: 2px
   /*border: 2px solid pink;*/
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
