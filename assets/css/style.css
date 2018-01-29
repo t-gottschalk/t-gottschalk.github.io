@@ -900,8 +900,8 @@ img {
   background-repeat: no-repeat;
   position: absolute;
   top: 70%;
-  -webkit-size-adjust: 100%;
-  margin-top: -340px; }
+  margin-top: -24%;
+  /*margin-top: -340px;*/ }
 
 .large-window {
   height: 640px;
