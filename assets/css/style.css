@@ -901,10 +901,19 @@ img {
 
 /* Mobile */
 
+@media screen and (max-width: 1024px) {
+  .logo {
+    top: 20%;
+    background-position: center;
+    padding: 0; } }
 
-}
+@media screen and (max-width: 768px) {
+  .logo {
+    top: 20%;
+    background-position: center;
+    padding: 0; } }
 
-@media screen and (min-device-width : 320px) and (max-device-width: 568px) {
+@media screen and (max-width: 400px) {
   .logo {
     top: 20%;
     background-position: center;
