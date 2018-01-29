@@ -1,4 +1,4 @@
-alert("connected");
+// alert("connected");
 
 var splashBox = $('.splash-box').height();
 
