@@ -400,10 +400,11 @@ th {
 /* Mobile */
 @media screen and (max-width: 400px) {
   .logo {
-    margin-top: 10px;
+    margin-top: none;
+    background-position: top center;
     width: 85%;
     padding: 0; } }
-    
+
 /* For devices larger than 550px */
 @media (min-width: 550px) {
 
