@@ -1,12 +1,14 @@
 // alert("connected");
 
+$(document).ready(function() {
+
 var splashBox = $('.splash-box').height();
 
 $(window).scroll(function() {
 
   var scroll = $(this).scrollTop();
 
-  // SVG Image speed
+  // SVG Logo image speed
   if (scroll <= splashBox) {
 
     $('.logo').css({
@@ -33,4 +35,5 @@ $(window).scroll(function() {
 
     $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
   }
+});
 });
