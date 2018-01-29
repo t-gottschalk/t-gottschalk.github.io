@@ -17,7 +17,6 @@ $(window).scroll(function(){
   }
 
   // Technology and Experience Floating Elements
-
   if (scroll > $('.tech-exp').offset().top - $(window).height()){
 
     var offset = (Math.min(0, scroll - $('.tech-exp').offset().top +$(window).height() - 350)).toFixed();
