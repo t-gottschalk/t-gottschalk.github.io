@@ -885,10 +885,11 @@ img {
 
 .splash-box {
   position: relative;
-  height: 100vh;
+  height: 600px;
+  /*max-width: 100vmax;*/
   background-image: url(../images/durham-night.jpg);
   /*background-size: auto 600px;*/
-  background-size: 100%;
+  background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
   /*background-repeat: no-repeat;*/
@@ -982,16 +983,16 @@ footer {
     margin: 0 auto; }
   footer a {
     color: white;
-    /*letter-spacing: 2px;
-    text-decoration: none; */}
+    letter-spacing: 2px;
+    text-decoration: none; }
   footer input {
     color: #333333; }
   
-/*.copyright {
+.copyright {
   margin-bottom: -40px;
   font-size: 12px;
   text-align: center;
   letter-spacing: 2px
-}*/
+}
 
 
