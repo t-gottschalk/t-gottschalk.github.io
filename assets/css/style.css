@@ -900,12 +900,14 @@ img {
   margin-top: -8%; }
 
 /* Mobile */
-@media screen and (max-width: 400px) {
+
+
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width: 568px) {
   .logo {
     top: 20%;
-    /*margin-top: none;*/
     background-position: center;
-    /*width: 85%;*/
     padding: 0; } }
 
 .large-window {
