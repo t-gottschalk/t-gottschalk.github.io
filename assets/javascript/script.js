@@ -5,29 +5,19 @@ $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
 
   if (wScroll <= pContainerHeight) {
-
     $('.logo').css({
       'transform' : 'translate(0px, '+ wScroll /2 +'%)'
     });
-
-    $('.back-bird').css({
-      'transform' : 'translate(0px, '+ wScroll /4 +'%)'
-    });
-
-    $('.fore-bird').css({
-      'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
-    });
-
   }
 
 
   // Landing Elements
   if(wScroll > $('.landing').offset().top - ($(window).height() / 1.2)) {
 
-    $('.landing figure').each(function(i){
+    $('.landing').each(function(i){
 
       setTimeout(function(){
-        $('.landing figure').eq(i).addClass('is-showing');
+        $('.landing').eq(i).addClass('is-showing');
       }, (700 * (Math.exp(i * 0.14))) - 700);
     });
 
@@ -58,15 +48,5 @@ $(window).scroll(function(){
 
   }
 });
-
-
-
-
-
-
-
-
-
-
 
 
