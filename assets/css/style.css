@@ -897,12 +897,12 @@ img {
   height: 100px;
   width: 100%;
   background-image: url(../images/vectorpaint1.svg);
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 70%;
+  top: 40%;
   /*margin-top: -50px;*/
-  margin-top: -22%; }
+  margin-top: -10%; }
 
 .large-window {
   height: 640px;
