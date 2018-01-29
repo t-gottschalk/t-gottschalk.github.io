@@ -397,12 +397,13 @@ th {
   float: left;
   box-sizing: border-box; }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+/* Mobile */
+@media screen and (max-width: 400px) {
   .logo {
-    margin-top: 50px;
+    margin-top: 10px;
     width: 85%;
     padding: 0; } }
+    
 /* For devices larger than 550px */
 @media (min-width: 550px) {
 
