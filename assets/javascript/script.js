@@ -2,12 +2,20 @@
 
 var splashBox = $('.splash-box').height();
 
-$(window).scroll(function(){
+$(window).scroll(function() {
 
   var scroll = $(this).scrollTop();
 
+  // SVG Image speed
+  if (scroll <= splashBox) {
+
+    $('.logo').css({
+      'transform' : 'translate(0px, '+ scroll /1.25 +'%)'
+    });
+  }
+
   // Picture Boca Raton opacity
-  if (scroll > $('.large-window').offset().top - $(window).height()){
+  if (scroll > $('.large-window').offset().top - $(window).height()) {
 
     $('.large-window').css({'background-position':'center '+ (scroll - $('.large-window').offset().top) +'px'});
 
@@ -17,7 +25,7 @@ $(window).scroll(function(){
   }
 
   // Technology and Experience Floating Elements
-  if (scroll > $('.tech-exp').offset().top - $(window).height()){
+  if (scroll > $('.tech-exp').offset().top - $(window).height()) {
 
     var offset = (Math.min(0, scroll - $('.tech-exp').offset().top +$(window).height() - 350)).toFixed();
 
