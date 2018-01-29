@@ -399,7 +399,8 @@ th {
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
-  .container {
+  .logo {
+    margin-top: 50px;
     width: 85%;
     padding: 0; } }
 /* For devices larger than 550px */
@@ -902,7 +903,7 @@ img {
   position: absolute;
   top: 40%;
   /*margin-top: -50px;*/
-  margin-top: -10%; }
+  margin-top: -8%; }
 
 .large-window {
   height: 640px;

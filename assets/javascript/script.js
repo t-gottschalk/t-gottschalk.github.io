@@ -10,7 +10,7 @@ $(window).scroll(function() {
   if (scroll <= splashBox) {
 
     $('.logo').css({
-      'transform' : 'translate(0px, '+ scroll /1.20 +'%)'
+      'transform' : 'translate(0px, '+ scroll /1.25 +'%)'
     });
   }
 
