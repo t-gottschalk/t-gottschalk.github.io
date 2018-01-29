@@ -973,6 +973,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  overflow: hidden;
   z-index: -1; }
   footer .footer-stuff {
     max-width: 640px;
