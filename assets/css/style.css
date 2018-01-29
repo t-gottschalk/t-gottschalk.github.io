@@ -590,10 +590,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #99badd; }
 
 a:hover {
-  color: #0FA0CE; }
+  color: #99badd; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -611,7 +611,6 @@ input[type="button"] {
   font-weight: 400;
   line-height: 38px;
   letter-spacing: .2rem;
-  /*text-transform: uppercase;*/
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -641,8 +640,9 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #99badd;
+  border-color: #99badd; }
+  
 
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -655,8 +655,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #99badd;
+  border-color: #99badd; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -832,7 +832,7 @@ hr {
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
-.container:after,
+/*.container:after,*/
 .row:after,
 .u-cf {
   content: "";
@@ -956,7 +956,7 @@ img {
       font-size: 22px;
       font-style: italic;
       letter-spacing: 2px;
-      color: rgba(255, 255, 255, 0.6); }
+      color: #d3d3d3; }
     .large-window .promo-text .window-cta {
       font-size: 20px;
       text-decoration: none;
