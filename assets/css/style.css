@@ -570,7 +570,7 @@ h6 {
   line-height: 1.6;
   letter-spacing: 0; }
 
-/* Larger than phablet */
+/* Larger than a tablet */
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem; }
@@ -610,7 +610,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #333333;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
@@ -889,6 +889,7 @@ img {
   background-size: 100%;
   background-position: top center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   overflow: hidden; }
 
 .logo {
