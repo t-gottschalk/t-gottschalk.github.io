@@ -982,18 +982,13 @@ footer {
     letter-spacing: 2px;
     text-decoration: none; }
   footer input {
-    color: #666; }
+    color: #333333; }
   
-.copyright {
+/*.copyright {
   margin-bottom: -40px;
   font-size: 12px;
   text-align: center;
   letter-spacing: 2px
-  /*border: 2px solid pink;*/
-}
-
-
-
-
+}*/
 
 
