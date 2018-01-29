@@ -398,10 +398,10 @@ th {
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-/*@media (min-width: 400px) {
+@media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; } }*/
+    padding: 0; } }
 /* For devices larger than 550px */
 @media (min-width: 550px) {
 
@@ -837,6 +837,7 @@ hr {
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
+.container:after,
 .row:after,
 .u-cf {
   content: "";
@@ -873,7 +874,7 @@ figure {
   margin-bottom: 400px;
   overflow: hidden; }
   .content article {
-    padding: 60px 0;
+    padding: 100px 0;
     max-width: 640px;
     margin: 0 auto;
     text-align: center; }
@@ -884,12 +885,12 @@ img {
 
 .splash-box {
   position: relative;
-  height: 640px;
-  background-image: url(../images/durham-night.jpg);
-  background-size: 100%;
+  height: 600px;
+  background-image: url(../images/stock.jpg);
+  background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   overflow: hidden; }
 
 .logo {
