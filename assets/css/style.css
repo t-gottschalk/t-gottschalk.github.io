@@ -29,18 +29,8 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
+article, aside, details, figcaption, figure, footer, header, hgroup, main, 
+menu, nav, section,
 summary {
   display: block; }
 
@@ -118,8 +108,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
   color: #d3d3d3;
-  letter-spacing: 2px;
-  /*border: 2px solid pink;*/ }
+  letter-spacing: 2px; }
 
 /**
  * Address styling not present in IE 8/9.
@@ -363,14 +352,7 @@ td,
 th {
   padding: 0; }
 
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
+/* Skeleton V2.0.4 - Free to use under the MIT license: www.getskeleton.com */
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -389,7 +371,6 @@ th {
 */
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 
 .column,
 .columns {
@@ -525,7 +506,7 @@ body {
   line-height: 1.6;
   font-weight: 300;
   font-family: "Helvetica Neue", "Arial", sans-serif;
-  color: #222; }
+  color: #333333; }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -643,7 +624,6 @@ input[type="button"].button-primary {
   background-color: #99badd;
   border-color: #99badd; }
   
-
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -705,7 +685,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #99badd;
   outline: 0; }
 
 label,
@@ -760,7 +740,7 @@ code {
   border: 1px solid #d3d3d3;
   border-radius: 4px; }
 
-pre > code {
+pre code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre; }
@@ -891,12 +871,11 @@ img {
 .logo {
   height: 100px;
   width: 100%;
-  background-image: url(../images/vectorpaint1.svg);
+  background-image: url(../images/svg-logo.svg);
   background-position: top center;
   background-repeat: no-repeat;
   position: absolute;
   top: 40%;
-  /*margin-top: -50px;*/
   margin-top: -8%; }
 
 /* Mobile */
@@ -1007,5 +986,3 @@ footer {
   text-align: center;
   letter-spacing: 2px
 }
-
-
