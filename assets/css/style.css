@@ -164,6 +164,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
+
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -182,7 +183,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Helvetica Neue", "Arial", sans-serif;
+  /*font-family: "Helvetica Neue", "Arial", sans-serif;*/
   font-size: 1em; }
 
 /* Forms
@@ -492,6 +493,7 @@ th {
   .offset-by-one-half.column,
   .offset-by-one-half.columns {
     margin-left: 52%; } }
+
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -514,7 +516,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; 
-  letter-spacing: 2px; }
+  /*letter-spacing: 2px;*/ }
 
 h1 {
   font-size: 5.0rem;
@@ -546,7 +548,7 @@ h6 {
   line-height: 1.6;
   letter-spacing: 0; }
 
-/* Larger than a tablet */
+/* Larger than a phablet */
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem; }
@@ -599,7 +601,6 @@ input[type="button"] {
   border: 1px solid #d3d3d3;
   cursor: pointer;
   box-sizing: border-box; }
-
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -614,16 +615,14 @@ input[type="button"]:focus {
   color: #ffffff;
   border-color: #333333;
   outline: 0; }
-
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
+  color: #ffffff;
   background-color: #99badd;
   border-color: #99badd; }
-  
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -634,7 +633,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
+  color: #ffffff;
   background-color: #99badd;
   border-color: #99badd; }
 
@@ -652,12 +651,11 @@ select {
   height: 38px;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
+  background-color: color: #ffffff;;
   border: 1px solid #d3d3d3;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
-
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -670,12 +668,10 @@ textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
-
 textarea {
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px; }
-
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -687,21 +683,17 @@ textarea:focus,
 select:focus {
   border: 1px solid #99badd;
   outline: 0; }
-
 label,
 legend {
   display: block;
   margin-bottom: .5rem;
   font-weight: 600; }
-
 fieldset {
   padding: 0;
   border-width: 0; }
-
 input[type="checkbox"],
 input[type="radio"] {
   display: inline; }
-
 label > .label-body {
   display: inline-block;
   margin-left: .5rem;
@@ -740,7 +732,7 @@ code {
   border: 1px solid #d3d3d3;
   border-radius: 4px; }
 
-pre code {
+pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre; }
@@ -752,11 +744,9 @@ td {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #d3d3d3; }
-
 th:first-child,
 td:first-child {
   padding-left: 0; }
-
 th:last-child,
 td:last-child {
   padding-right: 0; }
@@ -790,14 +780,11 @@ form {
 .u-full-width {
   width: 100%;
   box-sizing: border-box; }
-
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
-
 .u-pull-right {
   float: right; }
-
 .u-pull-left {
   float: left; }
 
@@ -846,7 +833,7 @@ figure {
 .content {
   position: relative;
   background: white;
-  margin-bottom: 400px;
+  margin-bottom: 300px;
   overflow: hidden; }
   .content article {
     padding: 100px 0;
@@ -899,11 +886,11 @@ img {
     padding: 0; } }
 
 .large-window {
-  height: 640px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/eddie-wedding.jpg);
-  background-position: center 0px;
-  background-repeat: repeat-y;
+  height: 640px;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
   margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 50%;
