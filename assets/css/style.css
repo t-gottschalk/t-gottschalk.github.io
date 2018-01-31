@@ -838,9 +838,9 @@ header ul {
 }
 
 .nav-topics {
-  margin-right: 8px;
-  padding-left: 14px;
-  padding-right: 14px;
+  margin-right: 6px;
+  padding-left: 24px;
+  padding-right: 10px;
   color: white;
   text-decoration: none;
   letter-spacing: 1px;
@@ -862,7 +862,7 @@ figure {
   margin-bottom: 300px;
   overflow: hidden; }
   .content article {
-    padding: 100px 0;
+    padding: 140px 0;
     max-width: 640px;
     margin: 0 auto;
     text-align: center; }
@@ -912,10 +912,10 @@ img {
     padding: 0; } }
 
 .large-window {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/eddie-wedding.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/portfolio-pic.jpg);
   height: 640px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center 0px;
   background-repeat: repeat-y;
   margin-top: 100px;
   margin-bottom: 100px;
