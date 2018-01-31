@@ -7,6 +7,15 @@ var splashBox = $('.splash-box').height();
 $(window).scroll(function() {
 
   var scroll = $(this).scrollTop();
+  
+  // Hidden Navbar
+  if (scroll > 600 && !$('header').hasClass('open') ) {
+    $('header').addClass('open');
+    $('header').slideDown();
+   } else if (scroll <= 600 ) {
+    $('header').removeClass('open');
+    $('header').slideUp();
+  }
 
   // SVG Logo image speed
   if (scroll <= splashBox) {
