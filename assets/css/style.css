@@ -908,7 +908,7 @@ img {
     background-position: center;
     padding: 0; } }
 
-.large-window {
+.portfolio-pic {
   background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/portfolio-pic.jpg);
   height: 640px;
   background-attachment: fixed;
@@ -918,7 +918,7 @@ img {
   margin-bottom: 100px;
   border-radius: 50%;
   position: relative; }
-  .large-window .window-tint {
+  .portfolio-pic .portfolio-pic-opacity {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
@@ -930,23 +930,23 @@ img {
     justify-content: center;
     align-items: center;
     opacity: 0; }
-  .large-window .promo-text {
+  .portfolio-pic .promo-text {
     color: white;
     font-weight: 100;
     font-size: 50px;
     line-height: 1.2;
     letter-spacing: 1px; }
-    .large-window .promo-text strong {
+    .portfolio-pic .promo-text strong {
       display: block;
       font-size: 30px;
       letter-spacing: 2px; }
-    .large-window .promo-text span {
+    .portfolio-pic .promo-text span {
       font-weight: 300;
       font-size: 22px;
       font-style: italic;
       letter-spacing: 2px;
       color: #d3d3d3; }
-    .large-window .promo-text .window-cta {
+    .portfolio-pic .promo-text .window-cta {
       font-size: 20px;
       text-decoration: none;
       color: white;
@@ -954,7 +954,7 @@ img {
       border: 1px solid white;
       padding: 10px 20px;
       transition: all 0.3s ease-in-out; }
-      .large-window .promo-text .window-cta:hover {
+      .portfolio-pic .promo-text .window-cta:hover {
         background: white;
         color: black; }
 
