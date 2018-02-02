@@ -19,7 +19,7 @@ if (scroll <= 540) {
     $('.nav-topics').css('color', 'white');
    } else if (scroll > 540) {
     $('header').css('background', 'black');
-    $('header').slideDown();
+    // $('header').slideDown();
   }
 
   // SVG Logo image speed
