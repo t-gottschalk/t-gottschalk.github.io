@@ -5,15 +5,6 @@ var splashBox = $('.splash-box').height();
 $(window).scroll(function() {
   var scroll = $(this).scrollTop();
 
-  // if (scroll <= 600) {
-  //   $('header').css('background', 'transparent');
-  //   $('.nav-topics').css('color', 'white');
-  //   $('header').slideUp();
-  //  } else if (scroll > 600) {
-  //   $('header').css('background', 'black');
-  //   $('header').slideDown();
-  // }
-
 if (scroll <= 540) {
     $('header').css('background', 'transparent');
     $('.nav-topics').css('color', 'white');
