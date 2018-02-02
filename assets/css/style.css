@@ -823,11 +823,12 @@ body {
   font-family: "Helvetica Neue", "Arial", sans-serif; }
 
 header {
-    /*text-align: left;*/
     position: fixed;
     width: 100%;
     height: 60px;
     z-index: 100;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    /*display: flex;*/
 }
 
 header ul {
