@@ -5,29 +5,39 @@ var splashBox = $('.splash-box').height();
 $(window).scroll(function() {
   var scroll = $(this).scrollTop();
 
-if (scroll <= 540) {
+  // Transparent to appearing navbar with hover
+  if (scroll <= 540) {
     $('header').css('background', 'transparent');
     $('.nav-topics').css('color', 'white');
-   } else if (scroll > 540) {
+    $(".nav-topics").hover(function(){
+      $(this).css("color", "#99badd");
+    }, function() {
+      $(this).css("color", "white");
+    });
+  } else if (scroll > 540) {
     $('header').css('background', 'black');
-    // $('header').slideDown();
+    $(".nav-topics").hover(function(){
+      $(this).css("color", "#99badd");
+    }, function() {
+      $(this).css("color", "white");
+    });
   }
 
   // SVG Logo image speed
   if (scroll <= splashBox) {
     $('.logo').css({
       'transform' : 'translate(0px, '+ scroll /1.3 +'%)'
-    });
+  });
   }
 
-  // Portfolio Picture opacity
+  // Portfolio picture opacity
   if (scroll > $('.portfolio-pic').offset().top - $(window).height()) {
     $('.portfolio-pic').css({'background-position':'center '+ (scroll - $('.portfolio-pic').offset().top) +'px'});
     var opacity = (scroll - $('.portfolio-pic').offset().top + 400) / (scroll / 5);
     $('.portfolio-pic-opacity').css({'opacity': opacity});
   }
 
-  // Technology and Experience Floating Elements
+  // Technology and Experience floating elements
   if (scroll > $('.tech-exp').offset().top - $(window).height()) {
     var offset = (Math.min(0, scroll - $('.tech-exp').offset().top +$(window).height() - 350)).toFixed();
 
