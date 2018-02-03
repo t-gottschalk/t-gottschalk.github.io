@@ -5,7 +5,7 @@ var splashBox = $('.splash-box').height();
 $(window).scroll(function() {
   var scroll = $(this).scrollTop();
 
-  // Transparent to appearing navbar with hover
+  // Transparent to appearing navbar with hover and transition
   if (scroll <= 540) {
     $('header').css('background', 'transparent');
     $('.nav-topics').css('color', 'white');

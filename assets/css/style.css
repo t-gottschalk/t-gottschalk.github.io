@@ -964,7 +964,7 @@ img {
       font-style: italic;
       letter-spacing: 2px;
       color: #d3d3d3; }
-    .portfolio-pic .promo-text .window-cta {
+    .portfolio-pic .promo-text .portfolio-pic-window {
       font-size: 20px;
       border-radius: 4px;
       text-decoration: none;
@@ -973,7 +973,7 @@ img {
       border: 1px solid white;
       padding: 10px 20px;
       transition: all 0.3s ease-in-out; }
-      .portfolio-pic .promo-text .window-cta:hover {
+      .portfolio-pic .promo-text .portfolio-pic-window:hover {
         background: white;
         color: black; }
 
