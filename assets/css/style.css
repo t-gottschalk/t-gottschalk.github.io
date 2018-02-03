@@ -835,6 +835,8 @@ header ul {
 }
 
 .nav-topics {
+  padding: 4px 16px;
+  border-radius: 4px;
   text-align: left;
   margin-left: 30px;
   color: white;
@@ -843,7 +845,14 @@ header ul {
   letter-spacing: 1px;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  transition: all 0.3s ease-in-out;
+  /*border: 1px solid pink;*/
 }
+
+.nav-topics:hover {
+
+        background: white;
+        color: #99badd; }
 
 /*.nav-apps {
   margin-left: 30px;
@@ -959,6 +968,7 @@ img {
       color: #d3d3d3; }
     .portfolio-pic .promo-text .window-cta {
       font-size: 20px;
+      border-radius: 4px;
       text-decoration: none;
       color: white;
       letter-spacing: 2px;
