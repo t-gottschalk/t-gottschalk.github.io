@@ -11,7 +11,7 @@ $(window).scroll(function() {
     $('.nav-topics').css('color', 'white');
     $(".nav-topics").hover(function(){
       $(this).css("color", "#99badd");
-      $(this).css("transition", "all 0.3s ease-in-out");
+      $(this).css("transition", "all .3s ease-in-out");
     }, function() {
       $(this).css("color", "white");
     });
@@ -19,7 +19,7 @@ $(window).scroll(function() {
     $('header').css('background', 'black');
     $(".nav-topics").hover(function(){
       $(this).css("color", "#99badd");
-      $(this).css("transition", "all 0.3s ease-in-out");
+      $(this).css("transition", "all .3s ease-in-out");
     }, function() {
       $(this).css("color", "white");
     });

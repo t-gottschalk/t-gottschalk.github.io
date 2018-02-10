@@ -1,0 +1,98 @@
+body {
+  background-color: white;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+}
+
+p {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100px;
+  /*color: #333333;*/
+
+  /*font-size: 3em;*/
+  margin: 0.67em 0;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+form {
+  margin-top: 9%;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: 300;
+  letter-spacing: 4px;
+  padding-top: 20px;
+  text-align: center;
+}
+label .label-text {
+  color: #d3d3d3;
+  cursor: text;
+  font-size: 24px;
+  line-height: 20px;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+}
+label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #333333;
+  /*color: white;*/
+  color: #4A4A4A;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  /*letter-spacing: -1px;*/
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 400px;
+}
+
+label input:focus {
+  max-width: 100%;
+  width: 400px;
+}
+label input:focus + .label-text {
+  color: #d3d3d3;
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+button {
+  background-color: white;
+  border: 1px solid #333333;
+  border-radius: 27px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 10px 36px;
+  text-transform: uppercase;
+  transition: all 200ms;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+button:hover, button:focus {
+  background-color: #d3d3d3;
+  color: white;
+  outline: 0;
+  border: 1px solid #333333;
+}
