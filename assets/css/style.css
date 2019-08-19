@@ -11,11 +11,29 @@
 	transition: all 20s;
 }
 
+.img-main {
+	border-radius: 5px;
+	transition: transform 0.25s ease-out;
+}
+
 .img-hover {
+  /*transform: translateZ(0);*/
+  border-radius: 2px;
+  transition: transform 0.25s ease-out;
+}
+
+.img-hover:hover {
+	transform: scale(1.05);
+	box-shadow: -8px 13px 5px 0px rgba(0,0,0,0.5);
+}
+
+/*.img-hover {
 	transition: all 20s;
 }
 
 .img-hover:hover {
 	transform: scale(2.0);
-}
+}*/
 /*# sourceMappingURL=main.bc58148c.map*/
+
+
